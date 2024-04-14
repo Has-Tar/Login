@@ -139,20 +139,21 @@ button{
     </div>
     <form method="post">
         <h3>Login Here</h3>
-        {% csrf_token %} 
         <label for="username">Username</label>
         <input type="text" placeholder="Enter Username" id="username" name="username">
 
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password" name="pass">
 
+        <a href="">
         <button type="submit">Log In</button>
+        </a>
         <!-- <input type="button" value=""> -->
         <!-- <div class="social">
           <div class="go"><i class="fab fa-google"></i>  Google</div>
           <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
         </div> -->
-        <a href="{% url 'signup' %}" >Create a account</a>
+        <a href="https://has-tar.github.io/Signup/signup" >Create a account</a>
     </form>
 </body>
 </html>
